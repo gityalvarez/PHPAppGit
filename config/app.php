@@ -149,6 +149,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Acoustep\EntrustGui\EntrustGuiServiceProvider::class,
         JeroenNoten\LaravelAdminLte\ServiceProvider::class,
+        Orangehill\Iseed\IseedServiceProvider::class,
 
         /*
          * Application Service Providers...

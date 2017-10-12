@@ -10,7 +10,8 @@
         "jeroennoten/laravel-adminlte": "^1.22",
 	"infyomlabs/laravel-generator": "5.2.x-dev",
 	"laravelcollective/html": "5.2.*",
-	"infyomlabs/adminlte-templates": "5.2.x-dev"
+	"infyomlabs/adminlte-templates": "5.2.x-dev",
+	"orangehill/iseed": "2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -20,6 +21,8 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
 	"acoustep/entrust-gui": "5.2.x-dev",
 	"zizaco/entrust": "5.2.x-dev"
+	
+        
     },
     "autoload": {
         "classmap": [
