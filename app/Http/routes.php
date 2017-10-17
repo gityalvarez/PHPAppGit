@@ -40,3 +40,15 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('categorias', 'CategoriaController');
+
+Route::resource('comercios', 'ComercioController');
+
+Route::resource('productos', 'ProductoController');
+
+Route::resource('articulos', 'ArticuloController');
+
+Route::resource('pedidos', 'PedidoController');
+
+Route::resource('personas', 'PersonaController');
